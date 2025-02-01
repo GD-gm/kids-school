@@ -398,6 +398,8 @@ main{
 }
 /* responsive part */
 /* for mobile */
+
+
 /* headerpart */
 
 
@@ -405,11 +407,13 @@ main{
 {
     .nav-title, 
     .nav-items,
-     .nav-btn{
-        
+     .nav-btn,
+     .story-card1{
+      
         display: none;
 
     }
+
 .nav-bar{
     justify-content: space-between;
     
@@ -442,12 +446,28 @@ main{
     .ban-subtitle {
         font-size:1.9rem ;
     }
-    .ban-btn{
+    .ban-btn{s
         height: 4rem;
         width: 13rem;
         font-size:1.8rem ;
     }
+    /* main part */
+
+    .box-container{
+        flex-direction: column;
+        padding: 0 3rem 0 1.5rem ;
+    }
+    .two-btn{
+        padding-top: 2rem;
+    }
+    /* main2 */
+   .box-grid{
+    
+   }
+   
 }
+
+
 
 
 
