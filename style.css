@@ -33,8 +33,13 @@
     
 }
 
-
-
+.radious{
+   border-radius: .9rem;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
 
   /* header part styles */
 
@@ -264,26 +269,132 @@ main{
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     justify-content: center;
     text-align: center;
-    margin: 9rem 0;
+    justify-items: center;
+    margin: 7rem 0 7rem 0;
 }
 
 .story-container{
-    display: grid;
-    
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 7rem;
    
     
+       
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 1.5rem;
+    margin-left: 1.8rem;
 }
 
 .story-card1{
+   width: 34rem;
+   height: 40rem;
+   background-color: white;
+   
+}
+.story-card2 {
+    width: 18.2rem;
+    height: 19rem;
+    background-color: white;
    
 }
 
+.story-card3{
+    width: 18.2rem;
+    height: 19rem;
+    background-color: white;}
+
+ .story-card4{
+        width: 18.2rem;
+        height: 19rem;
+        background-color: white;}
+
+    
+.story-card5{
+            width: 18.2rem;
+            height: 19rem;
+            background-color: white;}
+
+
+
+.main2-btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+}            
+
+ /* footer part styles */
+
+
+
 .footer{
-    display: flex;
+    justify-items: center;
+    align-items: center;
+    height:39rem;
+    background-color:rgb(1, 172, 253);
 }
 
+.edu-logo{
+    position: absolute;
+    margin-bottom: 12rem;
+    width: 7rem;
+    padding-left: 6rem;
+}
+.edu-title{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 13rem;
+    margin-top:5rem;
+   
+}
+.edu-subtitle{
+     width:16rem;
+    padding-left:8rem ;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    padding-top: 12rem;
+
+}
+.about-school{
+  
+}
+.about-title{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 40rem;
+    margin-top: -2.7rem ;
+}
 .items{
-    
+   
+    padding-left: 40rem;
+   color: white;
+}
+.social-media-title{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 30rem;
+    margin-top: -6rem ;
+}
+
+.logos{
+    position: absolute;
+    padding-left: 30rem;
+    margin-top: -2rem ;
 }
 /* responsive part */
 /* for mobile */
@@ -337,6 +448,7 @@ main{
         font-size:1.8rem ;
     }
 }
+
 
 
 /* for laptop or desktop */
