@@ -172,18 +172,23 @@ text-decoration: none;
 
 /* main1 part */
 
-.main1{
+
+main{
+   
+    
     background-image: url(../assets/bg.png);
+}
+
+.main1{
+    
     justify-content: center;
     text-align: center;
-    margin: 80px 0;
-    
-
+    margin: 9rem 0;
 }
 
 .box-container{
     display: flex;
-    padding: 40px 0;
+    padding: 6rem 0;
     gap: 1.8rem;
     justify-content: center;
     
@@ -214,6 +219,7 @@ text-decoration: none;
     border-radius: 0.9rem;
     align-content: center;
 }
+
 .read-more1{
     color: rgb(100, 200, 255);
     font-size: 1rem;
@@ -230,6 +236,7 @@ text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
 }
+
 .btn1{
     background-color:rgb(240, 170, 0) ;
     border-radius: 2rem;
@@ -238,6 +245,7 @@ text-decoration: none;
     font-size: 3rem;
     width: 4rem;
     height: 4rem;
+    
 }
 
 .btn2{
@@ -248,6 +256,34 @@ text-decoration: none;
     font-size: 3rem;
     width: 4rem;
     height: 4rem;
+}
+
+/* main2 styles part */
+
+.main2{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    justify-content: center;
+    text-align: center;
+    margin: 9rem 0;
+}
+
+.story-container{
+    display: grid;
+    
+   
+    
+}
+
+.story-card1{
+   
+}
+
+.footer{
+    display: flex;
+}
+
+.items{
+    
 }
 /* responsive part */
 /* for mobile */
