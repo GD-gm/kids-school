@@ -6,3 +6,81 @@
     font-weight: normal;
     font-style: normal;
   }
+
+
+/* common style */
+.bg{
+    background-color: rgba(207, 201, 201, 0.418);
+}
+.flex{
+    display: flex;
+}
+
+.list-deco{
+    list-style: none;
+}
+
+  /* header part styles */
+
+/* nav-bar styles */
+
+.nav-bar{
+       justify-content: space-evenly;
+       padding: 20px 0 0 0;
+       box-sizing: border-box;
+       align-items: center;
+
+}
+
+.logo-name{
+    align-items: center;
+}
+
+.nav-logo{
+   
+    width: 62% ;
+}
+
+.nav-title{
+
+Font-weight: 700;
+Font-size: 2rem;
+padding-left: 8px;
+
+}
+.nav-items  a{
+   
+font-size: 1.2rem;
+font-weight: 700;
+text-decoration: none;
+
+}
+
+
+
+.item1{
+    color: rgb(254, 163, 1);
+    padding-right: 16px;
+}
+.item2{
+    color:rgb(1, 172, 253);
+    padding-left: 16px;
+}
+.item3{
+    color: rgb(5, 212, 223);
+    padding-left: 32px;
+}
+.item4{
+    color:rgb(93, 88, 239);
+    padding-left: 32px;
+}
+
+.nav-btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border:none;
+    color: white;
+    font-size: 1.2rem;
+}
