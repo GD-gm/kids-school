@@ -84,3 +84,54 @@ text-decoration: none;
     color: white;
     font-size: 1.2rem;
 }
+
+/* banner part styles */
+
+.banner{
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 160px 0 220px;
+    align-items: center;
+    
+}
+
+.ban-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px 100px;
+    row-gap: 30px;
+}
+.ban-title{
+    font-size: 2.7rem;
+    font-weight: 800;
+    width: 70%;
+    
+   
+}
+/* title span tag style */
+.empower{
+    color:  rgb(254, 163, 1);
+
+}
+.towards{
+    color: rgb(1, 172, 253);
+}
+.ban-subtitle{
+    font-size: 1.2rem;
+    width: 55%;
+    
+}
+.ban-btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.ban-img{
+    width: 72%;
+}
