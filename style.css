@@ -27,8 +27,11 @@
 .nav-bar{
        justify-content: space-evenly;
        padding: 20px 0 0 0;
-       box-sizing: border-box;
+       
        align-items: center;
+       box-sizing: border-box ;
+       border-bottom: 2px solid rgb(254, 163, 1);
+      
 
 }
 
@@ -84,7 +87,10 @@ text-decoration: none;
     color: white;
     font-size: 1.2rem;
 }
-
+.menu-bar{
+    width: 64px;
+   opacity: 50%;
+}
 /* banner part styles */
 
 .banner{
@@ -134,4 +140,83 @@ text-decoration: none;
 
 .ban-img{
     width: 72%;
+}
+/* banner part done */
+
+/* header part done */
+
+
+
+/* main part styles */
+
+/* main1 part */
+
+
+
+
+/* responsive part */
+/* for mobile */
+/* headerpart */
+
+
+@media screen and (max-width: 933px)
+{
+    .nav-title, 
+    .nav-items,
+     .nav-btn{
+        
+        display: none;
+
+    }
+.nav-bar{
+    justify-content: space-between;
+    
+    flex-direction: row;
+    gap: 700px;
+    
+}
+    .nav-logo{
+        width: 72px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        padding: 3rem ;
+        
+    }
+    .ban-img{
+        width: 45rem;
+        
+    }
+    .ban-content{
+        width:50rem ;
+        justify-items: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .ban-title{
+        font-size: 3.5rem;
+    }
+    .ban-subtitle {
+        font-size:1.9rem ;
+    }
+    .ban-btn{
+        height: 4rem;
+        width: 13rem;
+        font-size:1.8rem ;
+    }
+}
+
+
+/* for laptop or desktop */
+@media screen and (min-width: 933px) {
+
+    .nav-bar{
+        border: none;
+    }
+    .menu-bar{
+        display: none;
+        
+    }
+    
 }
