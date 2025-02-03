@@ -366,9 +366,7 @@ main{
     padding-top: 12rem;
 
 }
-.about-school{
-  
-}
+
 .about-title{
     position: absolute;
     color: white;
@@ -411,42 +409,44 @@ main{
      .story-card1{
       
         display: none;
-
+        margin: auto;
     }
 
 .nav-bar{
     justify-content: space-between;
     
     flex-direction: row;
-    gap: 700px;
+    gap: 12.5rem;
     
 }
     .nav-logo{
-        width: 72px;
+        width: 70px;
     }
 
     .banner{
         flex-direction: column-reverse;
-        padding: 3rem ;
+        width: 1rem;
+        margin-left: 13rem;
         
     }
     .ban-img{
-        width: 45rem;
-        
+        width: 20rem;
+        justify-items: center;
     }
     .ban-content{
-        width:50rem ;
+        width:15rem ;
         justify-items: center;
         align-items: center;
         padding-top: 2rem;
+        margin-left: .01rem;
     }
     .ban-title{
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     .ban-subtitle {
-        font-size:1.9rem ;
+        font-size:1rem ;
     }
-    .ban-btn{s
+    .ban-btn{
         height: 4rem;
         width: 13rem;
         font-size:1.8rem ;
@@ -461,11 +461,18 @@ main{
         padding-top: 2rem;
     }
     /* main2 */
-   .box-grid{
-    
-   }
+  
    
-}
+   }
+
+   /* footer */
+
+   /* .footer{
+   
+   flex-direction: column;
+   height: 100rem;
+   
+} */
 
 
 
